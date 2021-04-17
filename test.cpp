@@ -59,21 +59,5 @@ int main() {
 	
 	// Uncomment the line below to test the game class.
 	//game.startGame();
-	// To slow down the console output change the sleep time in the Game.cpp startGame() method
-
-	/*
-		COMMENTS FOR HOW I WOULD EXTEND THIS TO WORK WITH 3D SHAPES
-
-		Fristly, the Shape.h class should have a z-coordinate and so would the Game.h class for the world space grid.
-		In Game.cpp I'm first checking if a collision is possible first by comparing the half lengths of two shapes
-		to their distance on x and y coordinates before calling the isCollision method. Another check would have to
-		be added for the z coordinate distance.
-		I would also have to extend the isCollision method for both Circle and Square to make use of the new dimension
-		coordinate. The idea stays the same with the Circle-Square collision - a closest point should be found and compared
-		to the circle radius. Circle-Cirlce collision method would need to take into account the z-coordinate distance when
-		calculating distance between circles. Square-Square collision would need one extra if statement to compare the z-coordinate 
-		same as the ones present in the current code.
-
-	*/
-	
+	// To slow down the console output change the sleep time in the Game.cpp startGame() method	
 }
