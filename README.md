@@ -1,4 +1,4 @@
-# Shapes-Collision-Game
+# Shape-Collision-Detection
 
 Task description: </br>
 
